@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>D:\Projects\CPP\3D2D-5\3D2D-5\</FILEPATH>
+      <FILENAME>FileReader.cpp</FILENAME>
+      <LINE>21</LINE>
+      <COLUMN>50</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>FileReader::getPoint</FUNCTION>
+    <DECORATED>?getPoint@FileReader@@QEAA?AV?$Vector3@M@sf@@HH@Z</DECORATED>
+    <FUNCLINE>10</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\Projects\CPP\3D2D-5\3D2D-5\</FILEPATH>
+      <FILENAME>FileReader.cpp</FILENAME>
+      <LINE>18</LINE>
+      <COLUMN>50</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>FileReader::getPoint</FUNCTION>
+    <DECORATED>?getPoint@FileReader@@QEAA?AV?$Vector3@M@sf@@HH@Z</DECORATED>
+    <FUNCLINE>10</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\Projects\CPP\3D2D-5\3D2D-5\</FILEPATH>
+      <FILENAME>FileReader.cpp</FILENAME>
+      <LINE>15</LINE>
+      <COLUMN>50</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>FileReader::getPoint</FUNCTION>
+    <DECORATED>?getPoint@FileReader@@QEAA?AV?$Vector3@M@sf@@HH@Z</DECORATED>
+    <FUNCLINE>10</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT></DEFECTS>
