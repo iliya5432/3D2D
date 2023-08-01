@@ -36,10 +36,10 @@ int main()
     Matrix4x4 projectionMatrix;
     matrix.SetProjection(window.getSize().x / window.getSize().y, 0.1f, 1000.0f, 90.0f, projectionMatrix);
 
-    //GameObject cube("D:/Projects/CPP/3D2D-5/x64/Debug/Cube.txt");
-    GameObject pyramid("D:/Projects/CPP/3D2D-5/x64/Debug/Pyramid.txt");
+    //GameObject cube("./Cube.txt");
+    GameObject pyramid("./Pyramid.txt");
     controller.addObject(pyramid);
-    //GameObject teaPot("D:/Projects/CPP/3D2D-5/x64/Debug/Teapot.txt");
+    //GameObject teaPot("./Teapot.txt");
     //controller.addObject(teaPot);
     
     //Game loop
