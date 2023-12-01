@@ -1,17 +1,13 @@
-# 3D2D
-This is a simple 3D rendering engine written in c++ using SFML library.
-In order to debug / run the code with an editor YOU HAVE TO INSTALL AND CONFIG SFML WITH THE CODE EDITOR FIRST.
-Notice that this project will NOT run in linux environment.
-You can download the SFML library from the main SFML website: https://www.sfml-dev.org/download.php
-This is not yet a finished code since depth buffer is not yet implemented nor optimized.
-=================================================================================================================================
-Usage:
-1. Run     3D2D/x64/Release/3D2D-5.exe
-2. Press 'p' to display points
-3. Press 'v' to activate colors
-4. Press 'c' to display colors
-5. Press '8' '4' '5' '6' (in numpad) for orientation
-6. Press 'w' 'a' 's' 'd'  for movement
-7. Press '+' or '-' (in numpad) for scaling
+# 3D Rendering Engine
 
-Note: for max performence remove displayed points (press 'p' if points are displayed).
+This repository contains a straightforward 3D rendering engine implemented in C++ using the SFML library. To successfully debug or run the code within an editor, it is essential to install and configure SFML with the code editor beforehand. Please be aware that this project is currently incompatible with a Linux environment.
+Installation
+
+#### To utilize this rendering engine, follow these steps:
+
+    Install and configure SFML with your preferred code editor.
+    Download the SFML library from the official SFML website: SFML Download.
+
+### Project Status
+This codebase is a work in progress. Notably, the depth buffer has not been implemented or optimized at this stage. Please consider this while working with the code.
+Feel free to contribute or provide feedback to enhance the functionality and robustness of the rendering engine.
