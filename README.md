@@ -1,5 +1,5 @@
 # 3D Rendering Engine
-![demo](ezgif-1-b944cbdcea.gif)
+![demo](demo.gif)
 
 This repository contains a straightforward 3D rendering engine implemented in C++ using the SFML library. To successfully debug or run the code within an editor, it is essential to install and configure SFML with the code editor beforehand. Please be aware that this project is currently incompatible with a Linux environment.
 Installation
